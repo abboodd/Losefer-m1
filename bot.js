@@ -385,7 +385,7 @@ function play(guild, song) {
 
 }
 
-const adminprefix = "H";
+const adminprefix = "1";
 const devs = ['234454368072630283', '403312268223447040'];
 
 client.on('message', message => {
@@ -413,24 +413,21 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setDescription(`
-❤══════════❤════════════❤
-     💪「أوامر بوت الاغاني」🎵
- 
-.    
-     Hp
+
+ _________________ 
+     1p
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     Hskip
+     1skip
      تغير الأغنية
-     Hpause
+     1pause
      ايقاف الأغنية
-     Hresume
+     1resume
      مواصلة الأغنية
-     Hvol
+     1vol
    لتغيير درجه الصوت 1-100
-     Hstop
+     1stop
      خروج البوت من الروم
 
-❤══════════❤════════════❤ 
  `)
  
    message.author.sendEmbed(embed)
@@ -444,7 +441,7 @@ client.user.setPresence({
   status: 'online', //الحال
   game: {
      type: 0,
-     name: 'Pirates.🔥|Hhelp',    
+     name: 'Pirates.🔥|1help',    
      details: `🎈r-help🎈`,  
      url: 'http://twitch.tv/Streammingg',
      state: `.`,
