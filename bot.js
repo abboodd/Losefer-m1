@@ -385,7 +385,7 @@ function play(guild, song) {
 
 }
 
-const adminprefix = "1";
+const adminprefix = "rw";
 const devs = ['234454368072630283', '403312268223447040'];
 
 client.on('message', message => {
@@ -417,15 +417,15 @@ client.on("message", message => {
  _________________ 
      1p
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     1skip
+     rwskip
      تغير الأغنية
-     1pause
+     rwpause
      ايقاف الأغنية
-     1resume
+     rwresume
      مواصلة الأغنية
-     1vol
-   لتغيير درجه الصوت 1-100
-     1stop
+     rwvol
+   لتغيير درجه الصوت 1-9
+     rwstop
      خروج البوت من الروم
 
  `)
@@ -441,7 +441,7 @@ client.user.setPresence({
   status: 'online', //الحال
   game: {
      type: 0,
-     name: 'Pirates.🔥|1help',    
+     name: 'Pirates.🔥|rwhelp',    
      details: `🎈r-help🎈`,  
      url: 'http://twitch.tv/Streammingg',
      state: `.`,
